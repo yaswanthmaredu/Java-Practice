@@ -1,6 +1,6 @@
-public class main {
-    @SuppressWarnings("unused")
-    public main(String[] args) {
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, Sumanth!");
         String name = "Maheshbabu";
         System.out.println(name);
         int HundredcroresRecords = 5;
