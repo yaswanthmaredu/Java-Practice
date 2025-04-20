@@ -1,6 +1,6 @@
-public class main {
+public class pratice {
     @SuppressWarnings("unused")
-    public main(String[] args) {
+    public pratice(String[] args) {
         String name = "Maheshbabu";
         System.out.println(name);
         int HundredcroresRecords = 5;
@@ -55,6 +55,14 @@ public class main {
       String[] Movies = {"Srimanthudu", "SLN", "SVP", "GK"};
        for (String a : Movies) {
         System.out.println(a);
-       }    
-    }
-}
+       }  
+       for (int X = 0; X < 5; X++) {
+        System.out.println(X);
+      } 
+       for (int d = 0; d <= 2; d++) {
+         System.out.println("outer :" +d);
+       for (int j = 1; j <= 3; j++) {
+          System.out.println(" Inner: " + j);
+        } 
+       } 
+      }

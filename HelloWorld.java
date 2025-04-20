@@ -56,5 +56,8 @@ public class HelloWorld {
        for (String a : Movies) {
         System.out.println(a);
        }    
+       for (int X = 0; X < 5; X++) {
+        System.out.println(X);
+      } 
     }
 }
