@@ -65,4 +65,6 @@ public class pratice {
           System.out.println(" Inner: " + j);
         } 
        } 
-      }
+    }
+
+  }
